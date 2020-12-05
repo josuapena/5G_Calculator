@@ -7,4 +7,5 @@
     <string name="nr_arfcn_result_text">Frecuencia</string>
     <string name="reception_info_message">Esta calculadora permite estimar la frecuencia de operación dentro de una banda NR ARFCN y la banda NR ARFCN dada una frecuencia. Elige la opción que más te convenga.</string>
     <string name="reception_frequency_button_text">Frecuencia</string>
+    <string name="language_button_text">Escoja su idioma</string>
 </resources>

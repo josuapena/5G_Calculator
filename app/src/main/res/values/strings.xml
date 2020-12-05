@@ -15,4 +15,8 @@
     <string name="reception_info_message">This calculator allows to estimate the operating frequency within an NR ARFCN band and the NR ARFCN band when a frequency is provided. Choose the option that best suits you.</string>
     <string name="reception_nr_arfcn_button_text" translatable="false">NR ARFCN</string>
     <string name="reception_frequency_button_text">Frequency</string>
+    <string name="language_button_text">Choose your language</string>
+    <string name="nr_arfcn" translatable="false">NR ARFCN</string>
+
+    // Language activity
 </resources>
