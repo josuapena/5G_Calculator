@@ -1,3 +1,18 @@
 <resources>
-    <string name="app_name">5G Calculator</string>
+    <string name="app_name" translatable="false">5G Calculator</string>
+    // Frequencia Activity
+    <string name="frequency_info_message">Introduce a frequency value in MHz to get the NR ARFCN Band.</string>
+    <string name="frequency_hint_message">Frequency</string>
+    <string name="frequency_button_text">Calculate</string>
+
+    // NR ARFCN Activity
+    <string name="nr_arfcn_info_message">Introduce an NR ARFCN Band to get the frequency value in MHz.</string>
+    <string name="nr_arfcn_hint_message" translatable="false">NR ARFCN</string>
+    <string name="nr_arfcn_button_text">Calculate</string>
+    <string name="nr_arfcn_result_text">Frequency</string>
+
+    // Recepcao activity
+    <string name="reception_info_message">This calculator allows to estimate the operating frequency within an NR ARFCN band and the NR ARFCN band when a frequency is provided. Choose the option that best suits you.</string>
+    <string name="reception_nr_arfcn_button_text" translatable="false">NR ARFCN</string>
+    <string name="reception_frequency_button_text">Frequency</string>
 </resources>
