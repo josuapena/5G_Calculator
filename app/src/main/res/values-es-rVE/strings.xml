@@ -1,0 +1,10 @@
+<resources>
+    <string name="frequency_info_message">Introduzca la frecuencia en MHz para obtener la banda NR ARFCN</string>
+    <string name="frequency_hint_message">Frecuencia</string>
+    <string name="frequency_button_text">Calcular</string>
+    <string name="nr_arfcn_info_message">Introduzca una banda NR ARFCN para obtener su frecuencia en MHz</string>
+    <string name="nr_arfcn_button_text">Calcular</string>
+    <string name="nr_arfcn_result_text">Frecuencia</string>
+    <string name="reception_info_message">Esta calculadora permite estimar la frecuencia de operación dentro de una banda NR ARFCN y la banda NR ARFCN dada una frecuencia. Elige la opción que más te convenga.</string>
+    <string name="reception_frequency_button_text">Frecuencia</string>
+</resources>
