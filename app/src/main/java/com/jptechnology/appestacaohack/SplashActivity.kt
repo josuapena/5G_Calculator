@@ -14,7 +14,7 @@ class SplashActivity : AppCompatActivity() {
         // Open loginActivity after 5 sec
         Handler(Looper.getMainLooper()).postDelayed({
             // Start intent
-            val mIntent = Intent(this, RecepcaoActivity::class.java)
+            val mIntent = Intent(this, LanguageActivity::class.java)
             startActivity(mIntent)
             finish()
         }, 5000)
