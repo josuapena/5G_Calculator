@@ -1,5 +1,6 @@
 package com.jptechnology.appestacaohack
 
+import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -8,6 +9,14 @@ import kotlinx.android.synthetic.main.activity_frequencia.*
 import kotlinx.android.synthetic.main.activity_nr_arfcn.*
 
 class FrequenciaActivity : AppCompatActivity() {
+
+    lateinit var myPreference: MyPreference
+
+    override fun attachBaseContext(newBase: Context?) {
+        myPreference = MyPreference(newBase!!)
+        val lang = myPreference.getLoginCount()
+        super.attachBaseContext(lang?.let { MyContextWrapper.wrap(newBase, it) })
+    }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_frequencia)

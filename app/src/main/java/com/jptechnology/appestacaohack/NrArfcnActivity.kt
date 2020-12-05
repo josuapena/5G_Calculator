@@ -10,6 +10,14 @@ import kotlinx.android.synthetic.main.activity_frequencia.*
 import kotlinx.android.synthetic.main.activity_nr_arfcn.*
 
 class NrArfcnActivity : AppCompatActivity() {
+
+    lateinit var myPreference: MyPreference
+
+    override fun attachBaseContext(newBase: Context?) {
+        myPreference = MyPreference(newBase!!)
+        val lang = myPreference.getLoginCount()
+        super.attachBaseContext(lang?.let { MyContextWrapper.wrap(newBase, it) })
+    }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_nr_arfcn)
